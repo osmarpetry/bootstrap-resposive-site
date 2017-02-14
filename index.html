@@ -1,19 +1,55 @@
 <!doctype html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
+
 <body>
-<div class="container">
-	<h2>Tenent mordicus</h2>
-	<img class="img-responsive" src="img/bridge.jpg" alt="">
-	<h2>Lorem ipsum dolor.</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni voluptatem voluptate, sunt distinctio!</p>
-	<h2>Velit, vitae, possimus.</h2>
-	<p>Magni alias, nobis voluptatem ad optio officiis nihil error, nisi iure qui placeat.</p>
-	<h2>Error, corrupti autem.</h2>
-	<p>Ipsa, perspiciatis architecto quam maiores quo sunt soluta laboriosam, deserunt, tempore similique officiis.</p>
-</div>
+	<section class="container">
+		<h2>Tenent mordicus</h2>
+		<img class="img-responsive" src="img/bridge.jpg" alt="">
+		<br>
+		<div class="panel-group" id="panel-first">
+
+			<div class="panel panel-default">
+				<div class="panel-heading" data-toggle="collapse" data-target="#first-p" data-parent="#panel-first">
+					<h3>Lorem ipsum dolor.</h3>
+				</div>
+				<div class="collapse in" id="first-p">
+					<div class="panel-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, tempore!</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading" data-toggle="collapse" data-target="#second-p" data-parent="#panel-first">
+					<h3>Quas voluptate, corporis.</h3>
+				</div>
+				<div class="collapse in" id="second-p">
+					<div class="panel-body">
+						<p>Repellendus eligendi sunt, architecto quisquam impedit quos rerum placeat veniam!</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading" data-toggle="collapse" data-target="#third-p" data-parent="#panel-first">
+					<h3>Repudiandae, ipsa, hic.</h3>
+				</div>
+				<div class="collapse in" id="third-p">
+					<div class="panel-body">
+						<p>Praesentium repellat, impedit soluta dolores ut corporis magni ullam voluptatibus.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
