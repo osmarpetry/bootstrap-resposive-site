@@ -2,6 +2,42 @@
 	margin-top: 20px;
 }
 
+html,
+body {
+	height: 100%;
+}
+
+header {
+	background-image: url(img/horse.jpg);
+	background-size: cover;
+	background-position: top center; /* x && y */
+	height: 100%;	
+	position: relative; /* the absolute .banner use me as reference */
+}
+
+header h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.banner {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5); /* rgb && opacity */
+	padding: 20px;
+	width: 80%;
+	border-radius: 5px; /* rounded edges */
+	position: absolute; /* allow me to chage .banner position, and use header reference */
+	top: 50%; /* x angle it's 50% from header reference */
+	left: 50%;/* y angle it's 50% from header reference */
+	transform: translate(-50%, -50%); /* my .banner use has reference, his top,
+										 and it change to midle of .banner */	
+    transition: 0.3s;
+}
+
+.banner button {
+	width: 100%;
+}
+
 #fourth-title {
 	background-color: #0275D8;
 	padding-top: 25px;
