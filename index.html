@@ -3,7 +3,9 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -29,6 +31,7 @@
 						<li><a href="#third">Sit amet.</a></li>
 						<li><a href="#fourth">Consectetur.</a></li>
 						<li><a href="#fifth">Dolor</a></li>
+						<li><a href="#sixth">Dolorem</a></li>
 					</ul>
 				</div>
 			</div>
@@ -37,12 +40,11 @@
 	<section class="container" id="first">
 		<h2>Tenent mordicus</h2>
 		<img class="img-responsive" src="img/bridge.jpg" alt="San Francisco's Golden Gate Bridge'">
-		<br>
-		<div class="panel-group" id="panel-first">
 
+		<div class="panel-group" id="panel-first">
 			<div class="panel panel-default">
 				<div class="panel-heading" data-toggle="collapse" data-target="#first-p" data-parent="#panel-first">
-					<h3>Lorem ipsum dolor.</h3>
+					<h3 class="panel-title">Lorem ipsum dolor.</h3>
 				</div>
 				<div class="collapse in" id="first-p">
 					<div class="panel-body">
@@ -53,9 +55,9 @@
 
 			<div class="panel panel-default">
 				<div class="panel-heading" data-toggle="collapse" data-target="#second-p" data-parent="#panel-first">
-					<h3>Quas voluptate, corporis.</h3>
+					<h3 class="panel-title">Quas voluptate, corporis.</h3>
 				</div>
-				<div class="collapse in" id="second-p">
+				<div class="collapse" id="second-p">
 					<div class="panel-body">
 						<p>Repellendus eligendi sunt, architecto quisquam impedit quos rerum placeat veniam!</p>
 					</div>
@@ -64,9 +66,9 @@
 
 			<div class="panel panel-default">
 				<div class="panel-heading" data-toggle="collapse" data-target="#third-p" data-parent="#panel-first">
-					<h3>Repudiandae, ipsa, hic.</h3>
+					<h3 class="panel-title">Repudiandae, ipsa, hic.</h3>
 				</div>
-				<div class="collapse in" id="third-p">
+				<div class="collapse" id="third-p">
 					<div class="panel-body">
 						<p>Praesentium repellat, impedit soluta dolores ut corporis magni ullam voluptatibus.</p>
 					</div>
@@ -78,89 +80,81 @@
 
 	<div class="jumbotron" id="second">
 		<div class="container">
-			<h2>Lorem ipsum dolor.</h2>
+			<h3>Lorem ipsum dolor.</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dicta debitis enim numquam.</p>
 		</div>
 	</div>
 
 	<section class="container" id="third">
 		<h2>Lorem ipsum dolor sit amet.</h2>
-		<figure class="thumbmail">
-			<img src="img/berlim.jpg" alt="Woman in Black Jacket Near Black Cars in Line on Road at Night" class="img-responsive">
+		<figure class="thumbnail">
+			<img src="img/berlim.jpg" alt="Woman in Black Jacket Near Black Cars in Line on Road at Night">
 			<figcaption class="caption">
 				<h3>Lorem ipsum dolor sit.</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur.</p>
 			</figcaption>
 		</figure>
-		<figure class="thumbmail">
-			<img src="img/beer.jpg" alt="About 5 friends, toasting with chopp" class="img-responsive">
+		<figure class="thumbnail">
+			<img src="img/beer.jpg" alt="About 5 friends, toasting with chopp">
 			<figcaption class="caption">
 				<h3>Architecto recusandae, iure voluptate.</h3>
 				<p>Tenetur provident, aperiam dolore quis officia.</p>
 			</figcaption>
 		</figure>
-		<figure class="thumbmail">
-			<img src="img/bike.jpg" alt="Orange Speed bike on a clean asphalt. Through the field of view of the cyclite" class="img-responsive">
+		<figure class="thumbnail">
+			<img src="img/bike.jpg" alt="Orange Speed bike on a clean asphalt. Through the field of view of the cyclite">
 			<figcaption class="caption">
 				<h3>Animi necessitatibus consectetur molestias!</h3>
 				<p>Pariatur dolorem optio quisquam rerum aperiam!</p>
 			</figcaption>
 		</figure>
-		<figure class="thumbmail">
-			<img src="img/jaguar.jpg" alt="A jaguar on the tree" class="img-responsive">
+		<figure class="thumbnail">
+			<img src="img/jaguar.jpg" alt="A jaguar on the tree">
 			<figcaption class="caption">
 				<h3>Adipisci vitae, et in!</h3>
 				<p>Quo illo voluptas esse deserunt nisi!</p>
 			</figcaption>
 		</figure>
 	</section>
-	<section class="container-fluid" id="fourth">
-		<div class="jumbotron">
-			<h2 class="container">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-			<br>
-			<br>
-			<br>
-			<div id="carousel-simple" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#carousel-simple" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-simple" data-slide-to="1"></li>
-					<li data-target="#carousel-simple" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner" role="listbox">
-					<figure class="item active">
-						<img src="img/big-ben.jpg" alt="Big Ben in London UK">
-						<figcaption class="carousel-caption">
-							<h3>Lorem ipsum dolor sit.
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							</h3>
-						</figcaption>
-					</figure>
-					<figure class="item">
-						<img src="img/kangaroo.jpg" alt="Kangaroo cub">
-						<figcaption class="carousel-caption">
-							<h3>Numquam qui a obcaecati.
-								<p>Nobis enim aut libero, sunt nemo facilis, inventore!</p>
-							</h3>
-						</figcaption>
-					</figure>
-					<figure class="item">
-						<img src="img/metro.jpg" alt="Metro in New York USA">
-						<figcaption class="carousel-caption">
-							<h3>Repellendus dicta, sunt odit.
-								<p>Natus ducimus minima perspiciatis dolorem enim, voluptas ratione.</p>
-							</h3>
-						</figcaption>
-					</figure>
-				</div>
-				<a class="left carousel-control" href="#carousel-simple" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#carousel-simple" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
+	<section id="fourth">
+		<h2 class="container" id="fourth-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+		<div id="carousel-simple" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-simple" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-simple" data-slide-to="1"></li>
+				<li data-target="#carousel-simple" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<figure class="item active">
+					<img src="img/big-ben.jpg" alt="Big Ben in London UK">
+					<figcaption class="carousel-caption">
+						<h3>Lorem ipsum dolor sit.</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="img/kangaroo.jpg" alt="Kangaroo cub">
+					<figcaption class="carousel-caption">
+						<h3>Numquam qui a obcaecati.</h3>
+						<p>Nobis enim aut libero, sunt nemo facilis, inventore!</p>
+					</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="img/metro.jpg" alt="Metro in New York USA">
+					<figcaption class="carousel-caption">
+						<h3>Repellendus dicta, sunt odit.</h3>
+						<p>Natus ducimus minima perspiciatis dolorem enim, voluptas ratione.</p>
+					</figcaption>
+				</figure>
 			</div>
+			<a class="left carousel-control" href="#carousel-simple" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-simple" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
 	</section>
 	<section class="container" id="fifth">
@@ -170,7 +164,7 @@
 				frameborder="0" allowfullscreen></iframe>
 		</div>
 	</section>
-	<section class="container">
+	<section class="container" id="sixth">
 		<h1>Lorem.</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint natus, perspiciatis mollitia recusandae debitis!</p>
 		<form action="">
@@ -182,26 +176,31 @@
 				<label for="email">Lorem.</label>
 				<input type="email" class="form-control" id="email" placeholder="email@domain.com" required>
 			</div>
-			<div class="form-group">
-				<input type="radio" name="type" checked required>Lorem.</input>
-				<input type="radio" name="type" required>Officia.</input>
-			</div>
-			<div class="form-group">
-				<select class="form-control" name="" id="">
+			<div class="radio-group">
+				<div class="radio">
+					<label>
+						<input type="radio" name="type" checked required>Lorem.</input>
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="type" required>Officia.</input>
+					</label>
+				</div>
+			</div><!--
+			--><select class="my-select form-control" name="" id="">
 					<option value="" disabled selected>Lorem.</option>
 					<option value="">Amet!</option>
 					<option value="">Possimus!</option>
 					<option value="">Voluptas.</option>
-				</select>
-			</div>
+			</select>
 			<button class="btn btn-primary" type="submit">Lorem.</button>
 		</form>
 	</section>
 	<footer class="container">
-		<br>
-		<address><strong>Lorem ipsum dolor sit amet.Lorem ipsum dolor.</strong><br>Lorem ipsum.<br>Lorem ipsum dolor sit.</address>	
+		<address><strong>Lorem ipsum dolor sit amet</strong><br>Lorem ipsum.<br> Lorem ipsum dolor sit.</address>
 		<address>Tel: (99) 9999-999999 <br> Email: name@domain.com</address>
-	</footer>			
+	</footer>
 	<script src="jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
