@@ -36,15 +36,19 @@
 			</div>
 		</nav>
 
-		<div class="banner">
-			<h1>Lorem ipsum dolor.</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam.</p>
-			<button class="btn btn-primary btn-lg">Lorem.</button>
+		<div class="container banner-wrapper">
+			<div class="banner">
+				<h1>Lorem ipsum dolor.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam.</p>
+				<button class="btn btn-primary btn-lg">Lorem.</button>
+			</div>
 		</div>
+		
 	</header>
+
 	<section class="container" id="first">
 		<h2>Tenent mordicus</h2>
-		<img class="img-responsive" src="img/bridge.jpg" alt="San Francisco's Golden Gate Bridge'">
+		<img class="img-responsive" src="assets/img/bridge.jpg" alt="San Francisco's Golden Gate Bridge'">
 
 		<div class="panel-group" id="panel-first">
 			<div class="panel panel-default">
@@ -92,34 +96,44 @@
 
 	<section class="container" id="third">
 		<h2>Lorem ipsum dolor sit amet.</h2>
-		<figure class="thumbnail">
-			<img src="img/berlim.jpg" alt="Woman in Black Jacket Near Black Cars in Line on Road at Night">
-			<figcaption class="caption">
-				<h3>Lorem ipsum dolor sit.</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur.</p>
-			</figcaption>
-		</figure>
-		<figure class="thumbnail">
-			<img src="img/beer.jpg" alt="About 5 friends, toasting with chopp">
-			<figcaption class="caption">
-				<h3>Architecto recusandae, iure voluptate.</h3>
-				<p>Tenetur provident, aperiam dolore quis officia.</p>
-			</figcaption>
-		</figure>
-		<figure class="thumbnail">
-			<img src="img/bike.jpg" alt="Orange Speed bike on a clean asphalt. Through the field of view of the cyclite">
-			<figcaption class="caption">
-				<h3>Animi necessitatibus consectetur molestias!</h3>
-				<p>Pariatur dolorem optio quisquam rerum aperiam!</p>
-			</figcaption>
-		</figure>
-		<figure class="thumbnail">
-			<img src="img/jaguar.jpg" alt="A jaguar on the tree">
-			<figcaption class="caption">
-				<h3>Adipisci vitae, et in!</h3>
-				<p>Quo illo voluptas esse deserunt nisi!</p>
-			</figcaption>
-		</figure>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-lg-3 col-md-4">
+				<figure class="thumbnail">
+					<img src="assets/img/berlim.jpg" alt="Woman in Black Jacket Near Black Cars in Line on Road at Night">
+					<figcaption class="caption">
+						<h3>Lorem ipsum dolor sit.</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur.</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-lg-3 col-md-4">
+				<figure class="thumbnail">
+					<img src="assets/img/beer.jpg" alt="About 5 friends, toasting with chopp">
+					<figcaption class="caption">
+						<h3>Architecto recusandae, iure voluptate.</h3>
+						<p>Tenetur provident, aperiam dolore quis officia.</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-lg-3 col-md-4">
+				<figure class="thumbnail">
+					<img src="assets/img/bike.jpg" alt="Orange Speed bike on a clean asphalt. Through the field of view of the cyclite">
+					<figcaption class="caption">
+						<h3>Animi necessitatibus consectetur molestias!</h3>
+						<p>Pariatur dolorem optio quisquam rerum aperiam!</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-lg-3 col-md-4">
+				<figure class="thumbnail">
+					<img src="assets/img/jaguar.jpg" alt="A jaguar on the tree">
+					<figcaption class="caption">
+						<h3>Adipisci vitae, et in!</h3>
+						<p>Quo illo voluptas esse deserunt nisi!</p>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
 	</section>
 	<section id="fourth">
 		<h2 class="container" id="fourth-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
@@ -131,21 +145,21 @@
 			</ol>
 			<div class="carousel-inner" role="listbox">
 				<figure class="item active">
-					<img src="img/big-ben.jpg" alt="Big Ben in London UK">
+					<img src="assets/img/big-ben.jpg" alt="Big Ben in London UK">
 					<figcaption class="carousel-caption">
 						<h3>Lorem ipsum dolor sit.</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</figcaption>
 				</figure>
 				<figure class="item">
-					<img src="img/kangaroo.jpg" alt="Kangaroo cub">
+					<img src="assets/img/kangaroo.jpg" alt="Kangaroo cub">
 					<figcaption class="carousel-caption">
 						<h3>Numquam qui a obcaecati.</h3>
 						<p>Nobis enim aut libero, sunt nemo facilis, inventore!</p>
 					</figcaption>
 				</figure>
 				<figure class="item">
-					<img src="img/metro.jpg" alt="Metro in New York USA">
+					<img src="assets/img/metro.jpg" alt="Metro in New York USA">
 					<figcaption class="carousel-caption">
 						<h3>Repellendus dicta, sunt odit.</h3>
 						<p>Natus ducimus minima perspiciatis dolorem enim, voluptas ratione.</p>
@@ -191,8 +205,7 @@
 						<input type="radio" name="type" required>Officia.</input>
 					</label>
 				</div>
-			</div>
-			<!--
+			</div><!--
 			--><select class="my-select form-control" name="" id="">
 					<option value="" disabled selected>Lorem.</option>
 					<option value="">Amet!</option>

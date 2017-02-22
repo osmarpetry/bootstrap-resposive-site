@@ -8,11 +8,10 @@ body {
 }
 
 header {
-	background-image: url(../../img/horse.jpg);
+	background-image: url(../img/senna.jpg);
 	background-size: cover;
 	background-position: top center; /* x && y */
 	height: 100%;	
-	position: relative; /* the absolute .banner use me as reference */
 }
 
 header h1 {
@@ -44,6 +43,7 @@ header h1 {
 	padding-bottom: 25px;
 	color: #FFF;
 	margin-bottom: 0;
+	width: 100%;
 	font-size: 24px;
 }
 
@@ -67,4 +67,23 @@ footer {
 
 footer address:last-child {
 	margin-bottom: 0;
+}
+
+@media(min-width: 768px) {
+	#panel-first {
+		margin-top: 0;	
+	}
+}
+
+@media(min-width: 992px) {
+	.banner {
+		left: 0;
+		transform: translate(0, -80%);
+		width: 50%;
+	}
+
+	.banner-wrapper {
+		position: relative;
+		height: 100%;
+	}
 }
